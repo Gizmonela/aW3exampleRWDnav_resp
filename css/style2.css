@@ -49,7 +49,7 @@ h1 {
 }
 
 .navbar {
-    background-color: #7F7455;
+    background-color: #CCC2B6;
     text-align: center;
     padding: 20px 0;
 }
@@ -65,6 +65,7 @@ h1 {
     position: relative;
 }
 
+
 .navbar a {
     font-family: Rubik Mono One;
     font-size: 16px;
@@ -79,7 +80,7 @@ h1 {
 .navbar .submenu {
     display: none;
     position: absolute;
-    background-color: #7f74557d;
+    background-color: #ccc2b6c2;
     top: 100%;
 }
 
@@ -96,13 +97,59 @@ h1 {
 }
 
 .pic-container {
-    background-image: url('brug.jpeg');
+    background-image: url('shutterstock_627788162.jpeg');
     background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: cover;
+    background-position: right bottom;
+    background-size: contain;
     padding-top: 640px;
 }
 
 .logo-link {
     text-decoration: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+
+.container .text-box {
+    margin-left: 50px;
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .text-box h2 {
+    margin-top: -120px;
+    margin-left: 10px;
+
+}
+
+h2 {
+    font-family: Roboto;
+    font-size: 100px;
+    color: #071C5B;
+
+}
+
+p {
+    font-family: Roboto;
+}
+
+.pic-color {
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 200px;
+    src: url(Screenshot\ 2023-10-16\ at\ 21.35.51\ copy.png);
+
+}
+
+
+.container .pic-container {
+    flex: 1;
+    background-image: url('shutterstock_627788162.jpeg');
+    background-repeat: no-repeat;
 }
